@@ -39,6 +39,7 @@ struct ContentView: View {
                         goToWelcomeBonus = true
                         return
                     }
+                    print("")
                     
                     if dailyBonusManager.todayBonusAvailable {
                         goToBonus = true
@@ -70,6 +71,9 @@ struct ContentView: View {
                     
                 }
             }
+            .alert(isPresented: $alertVisible, content: {
+                Alert(title: Text("Alert!"), message: Text(alertMessage))
+            })
             .onAppear {
                 if dailyBonusManager.todayBonusAvailable {
                     UserDefaults.standard.set(10, forKey: "free_spins_left")
