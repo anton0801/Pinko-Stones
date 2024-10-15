@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "Снимок_экрана_2024-10-12_в_17.45.42_1__1_-removebg-preview 1.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "Снимок_экрана_2024-10-12_в_17.45.42_1__1_-removebg-preview 1 (1).png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "Снимок_экрана_2024-10-12_в_17.45.42_1__1_-removebg-preview 1 (2).png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
